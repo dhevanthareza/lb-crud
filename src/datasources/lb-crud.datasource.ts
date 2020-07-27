@@ -4,12 +4,12 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'lb_crud',
   connector: 'mysql',
-  url: 'mysql://root:dhevan007@127.0.0.1:3308/lb_crud',
+  url: 'mysql://root:mawarmelati@ssh.iris.my.id:3308/lb_crud',
   host: '127.0.0.1',
   port: 3308,
   user: 'root',
-  password: 'dhevan007',
-  database: 'lb_crud'
+  password: 'mawarmelati',
+  database: 'lb_crud',
 };
 
 // Observe application's life cycle to disconnect the datasource when
