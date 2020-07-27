@@ -33,7 +33,8 @@
     "start": "node -r source-map-support/register .",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache",
     "dev": "ts-node-dev src/index.ts",
-    "tsc:dev": "tsc -w"
+    "tsc:dev": "tsc -w",
+    "heroku-postbuild": "yarn build"
   },
   "repository": {
     "type": "git"
