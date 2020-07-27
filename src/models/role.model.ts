@@ -12,9 +12,12 @@ export class Role extends Entity {
   @property({
     type: 'string',
     required: true,
+    unique: true,
+    index: {
+      unique: true,
+    },
   })
   name: string;
-
 
   constructor(data?: Partial<Role>) {
     super(data);
